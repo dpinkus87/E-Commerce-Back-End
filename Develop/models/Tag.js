@@ -11,7 +11,7 @@ Tag.init({
     autoIncrement: true,
   },
   tag_name: {
-    type: String,
+    type: DataTypes.STRING,
   },
 }, {
   sequelize,
